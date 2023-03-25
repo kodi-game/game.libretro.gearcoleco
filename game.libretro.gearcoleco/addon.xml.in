@@ -20,6 +20,5 @@
 		<source>https://github.com/kodi-game/game.libretro.gearcoleco</source>
 		<summary lang="en_GB">Coleco - ColecoVision (Gearcoleco)</summary>
 		<description lang="en_GB">Gearcoleco is an open source, cross-platform, ColecoVision emulator.</description>
-		<disclaimer lang="en_GB">The Gearcoleco core has been authored by Ignacio Sanchez (drhelius)</disclaimer>
 	</extension>
 </addon>
