@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.gearcoleco"
-		name="gearcoleco"
-		version="0.0.0.0"
-		provider-name="libretro">
+		name="Coleco - ColecoVision (Gearcoleco)"
+		version="1.0.1.1"
+		provider-name="Ignacio Sanchez">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
-		<extensions></extensions>
-		<supports_vfs>false</supports_vfs>
+		<extensions>col|cv|bin|rom</extensions>
+		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
-		<source>https://github.com/kodi-game/game.libretro.gearboy</source>
-		<summary lang="en_GB">gearcoleco</summary>
+		<source>https://github.com/kodi-game/game.libretro.gearcoleco</source>
+		<summary lang="en_GB">Coleco - ColecoVision (Gearcoleco)</summary>
 		<description lang="en_GB">Gearcoleco is an open source, cross-platform, ColecoVision emulator.</description>
 		<disclaimer lang="en_GB">The Gearcoleco core has been authored by Ignacio Sanchez (drhelius)</disclaimer>
 	</extension>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="gearcoleco_timing" values="Auto|NTSC (60 Hz)|PAL (50 Hz)" default="Auto"/>
+		<setting label="30002" type="select" id="gearcoleco_up_down_allowed" values="Disabled|Enabled" default="Disabled"/>
+	</category>
+</settings>
