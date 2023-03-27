@@ -1,0 +1,37 @@
+# game.libretro.gearcoleco language file
+# Addon Name: game.libretro.gearcoleco
+# Addon id: game.libretro.gearcoleco
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.gearcoleco\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-03-25 03:22i\n"
+"PO-Revision-Date: 2023-03-25 03:22i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: sq_al\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Coleco - ColecoVision (Gearcoleco)"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Gearcoleco is an open source, cross-platform, ColecoVision emulator."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Refresh Rate (restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Allow Up+Down / Left+Right"
+msgstr ""
