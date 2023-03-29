@@ -19,6 +19,8 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.gearcoleco</source>
 		<summary lang="en_GB">Coleco - ColecoVision (Gearcoleco)</summary>
+		<summary lang="es_ES">Coleco - ColecoVision (Gearcoleco)</summary>
 		<description lang="en_GB">Gearcoleco is an open source, cross-platform, ColecoVision emulator.</description>
+		<description lang="es_ES">Gearcoleco es un emulador de ColecoVision de código abierto y multiplataforma.</description>
 	</extension>
 </addon>
