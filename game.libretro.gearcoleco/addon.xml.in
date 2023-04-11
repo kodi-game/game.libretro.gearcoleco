@@ -18,8 +18,10 @@
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.gearcoleco</source>
+		<summary lang="da_DK">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="en_GB">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="es_ES">Coleco - ColecoVision (Gearcoleco)</summary>
+		<description lang="da_DK">Gearcoleco er en open source ColecoVision emulator på tværs af platforme.</description>
 		<description lang="en_GB">Gearcoleco is an open source, cross-platform, ColecoVision emulator.</description>
 		<description lang="es_ES">Gearcoleco es un emulador de ColecoVision de código abierto y multiplataforma.</description>
 	</extension>
