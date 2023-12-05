@@ -36,3 +36,7 @@ msgstr "Frecuencia de Refresco (reinicio)"
 msgctxt "#30002"
 msgid "Allow Up+Down / Left+Right"
 msgstr "Permitir Arriba+Abajo / Izquierda+Derecha"
+
+msgctxt "#30003"
+msgid "No Sprite Limit"
+msgstr ""

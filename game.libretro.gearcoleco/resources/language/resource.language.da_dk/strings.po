@@ -36,3 +36,7 @@ msgstr "Opdateringshastighed (genstart)"
 msgctxt "#30002"
 msgid "Allow Up+Down / Left+Right"
 msgstr "Tillad op+ned / venstre+højre"
+
+msgctxt "#30003"
+msgid "No Sprite Limit"
+msgstr ""

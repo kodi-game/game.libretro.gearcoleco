@@ -35,3 +35,7 @@ msgstr ""
 msgctxt "#30002"
 msgid "Allow Up+Down / Left+Right"
 msgstr ""
+
+msgctxt "#30003"
+msgid "No Sprite Limit"
+msgstr ""
