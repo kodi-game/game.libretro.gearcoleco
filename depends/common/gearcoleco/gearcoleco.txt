@@ -1,1 +1,1 @@
-gearcoleco https://github.com/drhelius/Gearcoleco/archive/ef00ff5de9149f2bcb51c590df52fa578bba4ec4.tar.gz
+gearcoleco https://github.com/drhelius/Gearcoleco/archive/4c0d58df0ca42227e773e046a07c2ffb7724b3c6.tar.gz

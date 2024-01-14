@@ -2,7 +2,11 @@
 <settings>
 	<category label="30000">
 		<setting label="30001" type="select" id="gearcoleco_timing" values="Auto|NTSC (60 Hz)|PAL (50 Hz)" default="Auto"/>
+		<setting label="30004" type="select" id="gearcoleco_aspect_ratio" values="1:1 PAR|4:3 DAR|16:9 DAR" default="1:1 PAR"/>
+		<setting label="30005" type="select" id="gearsystem_overscan" values="Disabled|Top+Bottom|Full (284 width)|Full (320 width)" default="Disabled"/>
 		<setting label="30002" type="select" id="gearcoleco_up_down_allowed" values="Disabled|Enabled" default="Disabled"/>
 		<setting label="30003" type="select" id="gearcoleco_no_sprite_limit" values="Disabled|Enabled" default="Disabled"/>
+		<setting label="30006" type="select" id="gearcoleco_spinners" values="Disabled|Super Action Controller|Wheel Controller|Roller Controller" default="Disabled"/>
+		<setting label="30007" type="select" id="gearcoleco_spinner_sensitivity" values="1|2|3|4|5|6|7|8|9|10" default="1"/>
 	</category>
 </settings>
