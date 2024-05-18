@@ -27,6 +27,7 @@
 		<description lang="en_GB">Gearcoleco is an open source, cross-platform, ColecoVision emulator.</description>
 		<description lang="es_ES">Gearcoleco es un emulador de ColecoVision de código abierto y multiplataforma.</description>
 		<description lang="it_IT">Gearcoleco è un emulatore ColecoVision open source e multipiattaforma.</description>
+		<description lang="sl_SI">Gearcoleco je odprtokodni emulator ColecoVision za več platform.</description>
 		<description lang="zh_CN">Gearcoleco 是一个开源、跨平台的 ColecoVision 模拟器。</description>
 	</extension>
 </addon>
