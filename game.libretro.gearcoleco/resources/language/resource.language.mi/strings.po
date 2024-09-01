@@ -24,10 +24,6 @@ msgctxt "Addon Description"
 msgid "Gearcoleco is an open source, cross-platform, ColecoVision emulator."
 msgstr ""
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr ""
-
 msgctxt "#30001"
 msgid "Refresh Rate (restart)"
 msgstr ""

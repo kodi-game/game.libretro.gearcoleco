@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "Gearcoleco is an open source, cross-platform, ColecoVision emulator."
 msgstr "Gearcoleco je odprtokodni emulator ColecoVision za več platform."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Nastavitve"
-
 msgctxt "#30001"
 msgid "Refresh Rate (restart)"
 msgstr "Hitrost osveževanja (ponovni zagon)"
@@ -56,3 +52,7 @@ msgstr "Podpora za vrtavko"
 msgctxt "#30007"
 msgid "Spinner Sensitivity"
 msgstr "Občutljivost vrtavke"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Nastavitve"

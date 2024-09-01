@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "Gearcoleco is an open source, cross-platform, ColecoVision emulator."
 msgstr "Gearcoleco es un emulador de ColecoVision de código abierto y multiplataforma."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Ajustes"
-
 msgctxt "#30001"
 msgid "Refresh Rate (restart)"
 msgstr "Tasa de Refresco (reiniciar)"
@@ -56,3 +52,7 @@ msgstr "Soporte giratorio"
 msgctxt "#30007"
 msgid "Spinner Sensitivity"
 msgstr "Sensibilidad de giro"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Ajustes"
