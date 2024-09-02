@@ -10,7 +10,7 @@ GPLv3
 
 ### Icon
 
-Help make me an icon!
+![Coleco - ColecoVision (Gearcoleco) icon](game.libretro.gearcoleco/resources/icon.png)
 
 ### Fanart
 
