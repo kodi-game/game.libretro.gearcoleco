@@ -1,15 +1,29 @@
-From 2432d166b2d7e812aa2e0448b5d3184041a1292a Mon Sep 17 00:00:00 2001
+From 27d3c15660d8325f7a62e573981d8b1da060fec9 Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
 Date: Sun, 1 Sep 2024 16:55:47 -0700
 Subject: [PATCH] Use latest git tag instead of git hash
 
 We force GIT_VERSION to "" in the CMakeLists.txt file.
 ---
- platforms/libretro/Makefile | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ platforms/desktop-shared/Makefile.common | 2 +-
+ platforms/libretro/Makefile              | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
 
+diff --git a/platforms/desktop-shared/Makefile.common b/platforms/desktop-shared/Makefile.common
+index 3695d94..b21b424 100644
+--- a/platforms/desktop-shared/Makefile.common
++++ b/platforms/desktop-shared/Makefile.common
+@@ -28,7 +28,7 @@ else
+ endif
+ 
+ CPPFLAGS += -I../ -I../../
+-CPPFLAGS += -Wall -Wextra -Wformat  -DEMULATOR_BUILD=\"$(GIT_VERSION)\"
++CPPFLAGS += -Wall -Wextra -Wformat  -DEMULATOR_BUILD=\"$(shell git fetch --tags > /dev/null 2>&1; git describe --tags --abbrev=0 --always)\"
+ CXXFLAGS += -std=c++11
+ CFLAGS += -std=c99
+ 
 diff --git a/platforms/libretro/Makefile b/platforms/libretro/Makefile
-index 01db018..0e38441 100644
+index 01db018..4b13319 100644
 --- a/platforms/libretro/Makefile
 +++ b/platforms/libretro/Makefile
 @@ -324,7 +324,7 @@ endif
@@ -17,7 +31,7 @@ index 01db018..0e38441 100644
  GIT_VERSION ?= " $(shell git describe --abbrev=7 --dirty --always --tags || echo unknown)"
  ifneq ($(GIT_VERSION)," unknown")
 -   CXXFLAGS += -DEMULATOR_BUILD=\"$(GIT_VERSION)\"
-+   CXXFLAGS += -DEMULATOR_BUILD=\"$(shell git describe --tags --abbrev=0)\"
++   CXXFLAGS += -DEMULATOR_BUILD=\"$(shell git fetch --tags > /dev/null 2>&1; git describe --tags --abbrev=0 --always)\"
  endif
  
  include Makefile.common
