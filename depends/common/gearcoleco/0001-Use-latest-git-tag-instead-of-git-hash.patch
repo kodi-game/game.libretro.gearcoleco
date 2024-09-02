@@ -1,26 +1,26 @@
-From 00b2e00e08fd75ad6586b3b4a04eca743a6e143f Mon Sep 17 00:00:00 2001
+From 2432d166b2d7e812aa2e0448b5d3184041a1292a Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
 Date: Sun, 1 Sep 2024 16:55:47 -0700
 Subject: [PATCH] Use latest git tag instead of git hash
 
-We force the git hash to "" in the CMakeLists.txt file.
+We force GIT_VERSION to "" in the CMakeLists.txt file.
 ---
- platforms/desktop-shared/Makefile.common | 2 +-
+ platforms/libretro/Makefile | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/platforms/desktop-shared/Makefile.common b/platforms/desktop-shared/Makefile.common
-index 3695d94..e690f8a 100644
---- a/platforms/desktop-shared/Makefile.common
-+++ b/platforms/desktop-shared/Makefile.common
-@@ -28,7 +28,7 @@ else
+diff --git a/platforms/libretro/Makefile b/platforms/libretro/Makefile
+index 01db018..0e38441 100644
+--- a/platforms/libretro/Makefile
++++ b/platforms/libretro/Makefile
+@@ -324,7 +324,7 @@ endif
+ 
+ GIT_VERSION ?= " $(shell git describe --abbrev=7 --dirty --always --tags || echo unknown)"
+ ifneq ($(GIT_VERSION)," unknown")
+-   CXXFLAGS += -DEMULATOR_BUILD=\"$(GIT_VERSION)\"
++   CXXFLAGS += -DEMULATOR_BUILD=\"$(shell git describe --tags --abbrev=0)\"
  endif
  
- CPPFLAGS += -I../ -I../../
--CPPFLAGS += -Wall -Wextra -Wformat  -DEMULATOR_BUILD=\"$(GIT_VERSION)\"
-+CPPFLAGS += -Wall -Wextra -Wformat -DEMULATOR_BUILD=\"$(shell git describe --tags --abbrev=0)\"
- CXXFLAGS += -std=c++11
- CFLAGS += -std=c99
- 
+ include Makefile.common
 -- 
 2.34.1
 
