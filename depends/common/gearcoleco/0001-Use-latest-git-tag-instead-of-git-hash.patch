@@ -1,4 +1,4 @@
-From 965d4fccc301c402b72d2bfdac799d59776be78b Mon Sep 17 00:00:00 2001
+From 5ea6225aa4497fd68a3894b941fb439e2c138cbe Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
 Date: Sun, 1 Sep 2024 16:55:47 -0700
 Subject: [PATCH] Use latest git tag instead of git hash
@@ -9,7 +9,7 @@ We force GIT_VERSION to "" in the CMakeLists.txt file.
  1 file changed, 8 insertions(+)
 
 diff --git a/platforms/libretro/Makefile b/platforms/libretro/Makefile
-index 01db018..cf399fe 100644
+index 01db018..61da7e6 100644
 --- a/platforms/libretro/Makefile
 +++ b/platforms/libretro/Makefile
 @@ -325,6 +325,14 @@ endif
@@ -23,7 +23,7 @@ index 01db018..cf399fe 100644
 +         git fetch --tags origin main > /dev/null 2>&1; \
 +      fi; \
 +      git describe --tags --abbrev=0 --always \
-+   )"
++   )\"
  endif
  
  include Makefile.common
