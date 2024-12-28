@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.gearcoleco"
 		name="Coleco - ColecoVision (Gearcoleco)"
-		version="1.3.0.24"
+		version="1.3.0.25"
 		provider-name="Ignacio Sanchez">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
