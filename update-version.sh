@@ -59,6 +59,6 @@ cd - || exit
 
 # Update the patch file with the latest tag
 PATCH_FILE="./depends/common/gearcoleco/0001-Explicitly-set-version-variable.patch"
-sed -i "s/+   CXXFLAGS += -DEMULATOR_BUILD=.*/+   CXXFLAGS += -DEMULATOR_BUILD=\\\\\"${LATEST_TAG}\\\\\"/" "${PATCH_FILE}"
+sed -i "s/+.*CXXFLAGS += -DEMULATOR_BUILD=.*/+	CXXFLAGS += -DEMULATOR_BUILD=\\\\\"${LATEST_TAG}\\\\\"/" "${PATCH_FILE}"
 
 echo "Updated ${PATCH_FILE} with EMULATOR_BUILD=${LATEST_TAG}"
