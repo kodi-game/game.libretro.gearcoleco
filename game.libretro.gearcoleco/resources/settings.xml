@@ -2,7 +2,7 @@
 <settings>
 	<category label="128">
 		<setting label="30001" type="select" id="gearcoleco_timing" values="Auto|NTSC (60 Hz)|PAL (50 Hz)" default="Auto"/>
-		<setting label="30004" type="select" id="gearcoleco_aspect_ratio" values="1:1 PAR|4:3 DAR|16:9 DAR" default="1:1 PAR"/>
+		<setting label="30004" type="select" id="gearcoleco_aspect_ratio" values="1:1 PAR|4:3 DAR|16:9 DAR|16:10 DAR" default="1:1 PAR"/>
 		<setting label="30005" type="select" id="gearcoleco_overscan" values="Disabled|Top+Bottom|Full (284 width)|Full (320 width)" default="Disabled"/>
 		<setting label="30002" type="select" id="gearcoleco_up_down_allowed" values="Disabled|Enabled" default="Disabled"/>
 		<setting label="30003" type="select" id="gearcoleco_no_sprite_limit" values="Disabled|Enabled" default="Disabled"/>
