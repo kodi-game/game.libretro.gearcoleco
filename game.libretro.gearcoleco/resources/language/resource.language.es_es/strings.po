@@ -37,10 +37,6 @@ msgctxt "#30003"
 msgid "No Sprite Limit"
 msgstr "Sin Límite de Sprites"
 
-msgctxt "#30004"
-msgid "Aspect Ratio (restart)"
-msgstr "Relación de aspecto (reiniciar)"
-
 msgctxt "#30005"
 msgid "Overscan"
 msgstr "Overscan"
@@ -52,6 +48,14 @@ msgstr "Soporte giratorio"
 msgctxt "#30007"
 msgid "Spinner Sensitivity"
 msgstr "Sensibilidad de giro"
+
+msgctxt "#30008"
+msgid "Aspect Ratio"
+msgstr ""
+
+#~ msgctxt "#30004"
+#~ msgid "Aspect Ratio (restart)"
+#~ msgstr "Relación de aspecto (reiniciar)"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

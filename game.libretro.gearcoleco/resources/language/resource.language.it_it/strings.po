@@ -37,10 +37,6 @@ msgctxt "#30003"
 msgid "No Sprite Limit"
 msgstr "Nessun limite di sprite"
 
-msgctxt "#30004"
-msgid "Aspect Ratio (restart)"
-msgstr ""
-
 msgctxt "#30005"
 msgid "Overscan"
 msgstr ""
@@ -51,6 +47,10 @@ msgstr ""
 
 msgctxt "#30007"
 msgid "Spinner Sensitivity"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Aspect Ratio"
 msgstr ""
 
 #~ msgctxt "#30000"
