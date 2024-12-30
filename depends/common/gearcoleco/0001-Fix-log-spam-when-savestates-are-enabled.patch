@@ -1,0 +1,24 @@
+From 326c813a9b9d69b46c7e2d8f9f0fc84d05a69828 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Mon, 30 Dec 2024 15:13:17 -0800
+Subject: [PATCH] Fix log spam when savestates are enabled
+
+---
+ src/GearcolecoCore.cpp | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/src/GearcolecoCore.cpp b/src/GearcolecoCore.cpp
+index 0e4717b..4e2e845 100644
+--- a/src/GearcolecoCore.cpp
++++ b/src/GearcolecoCore.cpp
+@@ -402,7 +402,6 @@ bool GearcolecoCore::SaveState(u8* buffer, size_t& size)
+ 
+         if (IsValidPointer(buffer))
+         {
+-            Log("Saving state to buffer [%d bytes]...", size);
+             memcpy(buffer, stream.str().c_str(), size);
+             ret = true;
+         }
+-- 
+2.43.0
+
