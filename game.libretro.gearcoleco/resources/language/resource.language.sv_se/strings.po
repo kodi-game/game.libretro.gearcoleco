@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.gearcoleco\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2023-03-25 03:22i\n"
-"PO-Revision-Date: 2025-04-08 15:13+0000\n"
+"PO-Revision-Date: 2025-04-11 09:05+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-gearcoleco/sv_se/>\n"
 "Language: sv_se\n"
@@ -27,7 +27,7 @@ msgstr "Gearcoleco är en ColecoVision-emulator med öppen källkod och plattfor
 
 msgctxt "#30001"
 msgid "Refresh Rate (restart)"
-msgstr ""
+msgstr "Uppdateringsfrekvens (omstart)"
 
 msgctxt "#30002"
 msgid "Allow Up+Down / Left+Right"
