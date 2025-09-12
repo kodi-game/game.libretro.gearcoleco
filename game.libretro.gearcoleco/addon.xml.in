@@ -26,12 +26,14 @@
 		<summary lang="da_DK">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="en_GB">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="es_ES">Coleco - ColecoVision (Gearcoleco)</summary>
+		<summary lang="ga">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="it_IT">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="sv_SE">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="zh_CN">Coleco - ColecoVision (Gearcoleco)</summary>
 		<description lang="da_DK">Gearcoleco er en open source ColecoVision emulator på tværs af platforme.</description>
 		<description lang="en_GB">Gearcoleco is an open source, cross-platform, ColecoVision emulator.</description>
 		<description lang="es_ES">Gearcoleco es un emulador de ColecoVision de código abierto y multiplataforma.</description>
+		<description lang="ga">Is aithriseoir ColecoVision foinse oscailte, tras-ardán é Gearcoleco.</description>
 		<description lang="it_IT">Gearcoleco è un emulatore ColecoVision open source e multipiattaforma.</description>
 		<description lang="sl_SI">Gearcoleco je odprtokodni emulator ColecoVision za več platform.</description>
 		<description lang="sv_SE">Gearcoleco är en ColecoVision-emulator med öppen källkod och plattformsoberoende.</description>
