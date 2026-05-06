@@ -41,10 +41,6 @@ msgctxt "#30005"
 msgid "Overscan"
 msgstr "过扫描"
 
-msgctxt "#30006"
-msgid "Spinner support"
-msgstr "旋转控制器支持"
-
 msgctxt "#30007"
 msgid "Spinner Sensitivity"
 msgstr "旋转控制器灵敏度"
@@ -52,6 +48,14 @@ msgstr "旋转控制器灵敏度"
 msgctxt "#30008"
 msgid "Aspect Ratio"
 msgstr "宽高比"
+
+msgctxt "#30009"
+msgid "Spinner Support"
+msgstr ""
+
+#~ msgctxt "#30006"
+#~ msgid "Spinner support"
+#~ msgstr "旋转控制器支持"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

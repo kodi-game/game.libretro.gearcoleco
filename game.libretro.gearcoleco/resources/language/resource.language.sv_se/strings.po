@@ -41,10 +41,6 @@ msgctxt "#30005"
 msgid "Overscan"
 msgstr "Överskanning"
 
-msgctxt "#30006"
-msgid "Spinner support"
-msgstr "Spinner-stöd"
-
 msgctxt "#30007"
 msgid "Spinner Sensitivity"
 msgstr "Spinner-känslighet"
@@ -52,6 +48,14 @@ msgstr "Spinner-känslighet"
 msgctxt "#30008"
 msgid "Aspect Ratio"
 msgstr "Bildförhållande"
+
+msgctxt "#30009"
+msgid "Spinner Support"
+msgstr ""
+
+#~ msgctxt "#30006"
+#~ msgid "Spinner support"
+#~ msgstr "Spinner-stöd"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

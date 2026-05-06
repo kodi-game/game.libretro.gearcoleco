@@ -41,10 +41,6 @@ msgctxt "#30005"
 msgid "Overscan"
 msgstr ""
 
-msgctxt "#30006"
-msgid "Spinner support"
-msgstr "Podpora za vrtavko"
-
 msgctxt "#30007"
 msgid "Spinner Sensitivity"
 msgstr "Občutljivost vrtavke"
@@ -52,6 +48,14 @@ msgstr "Občutljivost vrtavke"
 msgctxt "#30008"
 msgid "Aspect Ratio"
 msgstr ""
+
+msgctxt "#30009"
+msgid "Spinner Support"
+msgstr ""
+
+#~ msgctxt "#30006"
+#~ msgid "Spinner support"
+#~ msgstr "Podpora za vrtavko"
 
 #~ msgctxt "#30004"
 #~ msgid "Aspect Ratio (restart)"
