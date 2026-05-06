@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.gearcoleco"
 		name="Coleco - ColecoVision (Gearcoleco)"
-		version="1.3.0.27"
-		provider-name="Ignacio Sanchez">
+		version="0.0.1.28"
+		provider-name="Nacho Sanchez">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.colecovision" version="1.0.0"/>
@@ -14,6 +14,7 @@
 		<extensions>col|cv|bin|rom</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
 		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
