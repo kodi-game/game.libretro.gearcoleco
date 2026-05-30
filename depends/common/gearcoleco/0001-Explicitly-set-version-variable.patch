@@ -16,7 +16,7 @@ index c76ab53..62b718f 100644
  GIT_VERSION ?= $(shell git describe --abbrev=7 --dirty --always --tags || echo unknown)
  ifneq ($(GIT_VERSION), unknown)
 -	CXXFLAGS += -DEMULATOR_BUILD=\"$(GIT_VERSION)\"
-+	CXXFLAGS += -DEMULATOR_BUILD=\"1.6.0\"
++	CXXFLAGS += -DEMULATOR_BUILD=\"1.6.2\"
  endif
  
  include Makefile.common
