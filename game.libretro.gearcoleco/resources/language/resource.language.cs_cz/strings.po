@@ -52,3 +52,7 @@ msgstr "Poměr stran"
 msgctxt "#30009"
 msgid "Spinner Support"
 msgstr "Podpora spinneru"
+
+msgctxt "#30010"
+msgid "Mapper (restart)"
+msgstr ""

@@ -52,3 +52,7 @@ msgstr ""
 msgctxt "#30009"
 msgid "Spinner Support"
 msgstr ""
+
+msgctxt "#30010"
+msgid "Mapper (restart)"
+msgstr ""

@@ -53,6 +53,10 @@ msgctxt "#30009"
 msgid "Spinner Support"
 msgstr ""
 
+msgctxt "#30010"
+msgid "Mapper (restart)"
+msgstr ""
+
 #~ msgctxt "#30006"
 #~ msgid "Spinner support"
 #~ msgstr "Podpora za vrtavko"
