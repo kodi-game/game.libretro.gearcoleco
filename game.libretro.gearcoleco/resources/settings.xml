@@ -1,13 +1,123 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<category label="128">
-		<setting label="30001" type="select" id="gearcoleco_timing" values="Auto|NTSC (60 Hz)|PAL (50 Hz)" default="Auto"/>
-		<setting label="30010" type="select" id="gearcoleco_mapper" values="Auto|Standard|MegaCart|Activision|OCM" default="Auto"/>
-		<setting label="30008" type="select" id="gearcoleco_aspect_ratio" values="1:1 PAR|4:3 DAR|16:9 DAR|16:10 DAR" default="1:1 PAR"/>
-		<setting label="30005" type="select" id="gearcoleco_overscan" values="Disabled|Top+Bottom|Full (284 width)|Full (320 width)" default="Disabled"/>
-		<setting label="30003" type="select" id="gearcoleco_no_sprite_limit" values="Disabled|Enabled" default="Disabled"/>
-		<setting label="30002" type="select" id="gearcoleco_up_down_allowed" values="Disabled|Enabled" default="Disabled"/>
-		<setting label="30009" type="select" id="gearcoleco_spinners" values="Disabled|Super Action Controller|Wheel Controller|Roller Controller" default="Disabled"/>
-		<setting label="30007" type="select" id="gearcoleco_spinner_sensitivity" values="1|2|3|4|5|6|7|8|9|10" default="1"/>
-	</category>
+<settings version="1">
+	<section id="game.libretro.gearcoleco">
+		<category id="system" label="30011" help="30012">
+			<group id="1">
+				<setting id="gearcoleco_timing" type="string" label="30001" help="30013">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option>Auto</option>
+							<option>NTSC (60 Hz)</option>
+							<option>PAL (50 Hz)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gearcoleco_mapper" type="string" label="30010" help="30014">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option>Auto</option>
+							<option>Standard</option>
+							<option>MegaCart</option>
+							<option>Activision</option>
+							<option>OCM</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30015" help="30016">
+			<group id="1">
+				<setting id="gearcoleco_aspect_ratio" type="string" label="30008" help="30017">
+					<level>0</level>
+					<default>1:1 PAR</default>
+					<constraints>
+						<options>
+							<option>1:1 PAR</option>
+							<option>4:3 DAR</option>
+							<option>16:9 DAR</option>
+							<option>16:10 DAR</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gearcoleco_overscan" type="string" label="30005" help="30018">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option>Disabled</option>
+							<option>Top+Bottom</option>
+							<option>Full (284 width)</option>
+							<option>Full (320 width)</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gearcoleco_no_sprite_limit" type="string" label="30003" help="30019">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option>Disabled</option>
+							<option>Enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30020" help="30021">
+			<group id="1">
+				<setting id="gearcoleco_up_down_allowed" type="string" label="30002" help="30022">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option>Disabled</option>
+							<option>Enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gearcoleco_spinners" type="string" label="30009" help="30023">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option>Disabled</option>
+							<option>Super Action Controller</option>
+							<option>Wheel Controller</option>
+							<option>Roller Controller</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gearcoleco_spinner_sensitivity" type="string" label="30007" help="30024">
+					<level>0</level>
+					<default>1</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
 </settings>
