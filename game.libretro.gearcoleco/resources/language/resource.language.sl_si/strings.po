@@ -113,6 +113,54 @@ msgctxt "#30024"
 msgid "Set the sensitivity of the spinner controller. 1 is the lowest sensitivity and 10 is the highest."
 msgstr ""
 
+msgctxt "#30025"
+msgid "NTSC (60 Hz)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "PAL (50 Hz)"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Standard"
+msgstr ""
+
+msgctxt "#30028"
+msgid "MegaCart"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Activision"
+msgstr ""
+
+msgctxt "#30030"
+msgid "OCM"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Top+Bottom"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Full (284 width)"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Full (320 width)"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Super Action Controller"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Wheel Controller"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Roller Controller"
+msgstr ""
+
 #~ msgctxt "#30006"
 #~ msgid "Spinner support"
 #~ msgstr "Podpora za vrtavko"
