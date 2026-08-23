@@ -8,9 +8,9 @@
 					<default>Auto</default>
 					<constraints>
 						<options>
-							<option>Auto</option>
-							<option>NTSC (60 Hz)</option>
-							<option>PAL (50 Hz)</option>
+							<option label="16316">Auto</option>
+							<option label="30025">NTSC (60 Hz)</option>
+							<option label="30026">PAL (50 Hz)</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -20,11 +20,11 @@
 					<default>Auto</default>
 					<constraints>
 						<options>
-							<option>Auto</option>
-							<option>Standard</option>
-							<option>MegaCart</option>
-							<option>Activision</option>
-							<option>OCM</option>
+							<option label="16316">Auto</option>
+							<option label="30027">Standard</option>
+							<option label="30028">MegaCart</option>
+							<option label="30029">Activision</option>
+							<option label="30030">OCM</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -51,10 +51,10 @@
 					<default>Disabled</default>
 					<constraints>
 						<options>
-							<option>Disabled</option>
-							<option>Top+Bottom</option>
-							<option>Full (284 width)</option>
-							<option>Full (320 width)</option>
+							<option label="13106">Disabled</option>
+							<option label="30031">Top+Bottom</option>
+							<option label="30032">Full (284 width)</option>
+							<option label="30033">Full (320 width)</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -64,8 +64,8 @@
 					<default>Disabled</default>
 					<constraints>
 						<options>
-							<option>Disabled</option>
-							<option>Enabled</option>
+							<option label="13106">Disabled</option>
+							<option label="305">Enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -79,8 +79,8 @@
 					<default>Disabled</default>
 					<constraints>
 						<options>
-							<option>Disabled</option>
-							<option>Enabled</option>
+							<option label="13106">Disabled</option>
+							<option label="305">Enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -90,10 +90,10 @@
 					<default>Disabled</default>
 					<constraints>
 						<options>
-							<option>Disabled</option>
-							<option>Super Action Controller</option>
-							<option>Wheel Controller</option>
-							<option>Roller Controller</option>
+							<option label="13106">Disabled</option>
+							<option label="30034">Super Action Controller</option>
+							<option label="30035">Wheel Controller</option>
+							<option label="30036">Roller Controller</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
