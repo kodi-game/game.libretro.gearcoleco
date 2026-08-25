@@ -29,6 +29,18 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
+				<setting id="gearcoleco_video_chip" type="string" label="30037" help="30038">
+					<level>0</level>
+					<default>Auto</default>
+					<constraints>
+						<options>
+							<option label="16316">Auto</option>
+							<option label="30039">TMS9918A</option>
+							<option label="30040">F18A</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 			</group>
 		</category>
 		<category id="video" label="30015" help="30016">
@@ -46,7 +58,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="gearcoleco_overscan" type="string" label="30005" help="30018">
+				<setting id="gearcoleco_overscan" type="string" label="30005" help="30041">
 					<level>0</level>
 					<default>Disabled</default>
 					<constraints>
