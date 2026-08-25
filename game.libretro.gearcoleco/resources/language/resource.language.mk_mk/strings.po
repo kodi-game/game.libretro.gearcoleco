@@ -85,10 +85,6 @@ msgctxt "#30017"
 msgid "Select which aspect ratio will be presented by the core. '1:1 PAR' selects an aspect ratio that produces square pixels."
 msgstr ""
 
-msgctxt "#30018"
-msgid "Select which overscan (borders) will be used in emulation. 'Disabled' shows no overscan. 'Top+Bottom' enables vertical overscan only. 'Full (284 width)' and 'Full (320 width)' enable full overscan with different horizontal widths."
-msgstr ""
-
 msgctxt "#30019"
 msgid "Remove the per-line sprite limit. This reduces flickering but may cause glitches in certain games. It's best to keep this option disabled."
 msgstr ""
@@ -159,4 +155,24 @@ msgstr ""
 
 msgctxt "#30036"
 msgid "Roller Controller"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Video Chip (restart)"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Select the installed video chip. 'Auto' uses TMS9918A unless the loaded game database entry requires F18A. Changes take effect when content is restarted."
+msgstr ""
+
+msgctxt "#30039"
+msgid "TMS9918A"
+msgstr ""
+
+msgctxt "#30040"
+msgid "F18A"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Select which overscan (borders) will be used in TMS9918A emulation. 'Disabled' shows no overscan. 'Top+Bottom' enables vertical overscan only. 'Full (284 width)' and 'Full (320 width)' enable full overscan with different horizontal widths. F18A output uses its active logical raster without TMS overscan."
 msgstr ""
