@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "Addon Summary"
-msgid "Coleco - ColecoVision (Gearcoleco)"
+msgid "Coleco - ColecoVision / ADAM (Gearcoleco)"
 msgstr ""
 
 msgctxt "Addon Description"

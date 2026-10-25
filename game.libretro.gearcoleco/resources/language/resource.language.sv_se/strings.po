@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 5.11\n"
 
 msgctxt "Addon Summary"
-msgid "Coleco - ColecoVision (Gearcoleco)"
+msgid "Coleco - ColecoVision / ADAM (Gearcoleco)"
 msgstr "Coleco - ColecoVision (Gearcoleco)"
 
 msgctxt "Addon Description"
