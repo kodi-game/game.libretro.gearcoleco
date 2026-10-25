@@ -3,6 +3,53 @@
 	<section id="game.libretro.gearcoleco">
 		<category id="system" label="30011" help="30012">
 			<group id="1">
+				<setting id="gearcoleco_cartridge_hardware" type="string" label="30042" help="30043">
+					<level>0</level>
+					<default>ColecoVision</default>
+					<constraints>
+						<options>
+							<option>ColecoVision</option>
+							<option>ADAM</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gearcoleco_adam_disk_drive" type="string" label="30044" help="30045">
+					<level>0</level>
+					<default>Loaded media</default>
+					<constraints>
+						<options>
+							<option>Loaded media</option>
+							<option>Disk 1</option>
+							<option>Disk 2</option>
+							<option>Data Pack 1</option>
+							<option>Data Pack 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gearcoleco_adam_computer_reset" type="string" label="30046" help="30047">
+					<level>0</level>
+					<default>Idle</default>
+					<constraints>
+						<options>
+							<option>Idle</option>
+							<option>Reset</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="gearcoleco_adam_writable_media" type="string" label="30048" help="30049">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">Disabled</option>
+							<option label="30050">Save-directory working copy</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 				<setting id="gearcoleco_timing" type="string" label="30001" help="30013">
 					<level>0</level>
 					<default>Auto</default>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.gearcoleco"
-		name="Coleco - ColecoVision (Gearcoleco)"
-		version="1.6.10.41"
+		name="Coleco - ColecoVision / ADAM (Gearcoleco)"
+		version="1.6.11.42"
 		provider-name="Nacho Sanchez">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -10,12 +10,13 @@
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms></platforms>
-		<extensions>col|cv|bin|rom</extensions>
+		<platforms>Coleco - ColecoVision / ADAM</platforms>
+		<extensions>col|cv|bin|rom|zip|ddp|dsk|m3u</extensions>
 		<supports_vfs>true</supports_vfs>
-		<supports_standalone>false</supports_standalone>
-		<supports_disc_control>false</supports_disc_control>
-		<requires_opengl>false</requires_opengl>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>gearcoleco_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv3</license>
@@ -26,7 +27,7 @@
 		</assets>
 		<summary lang="cs_CZ">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="da_DK">Coleco - ColecoVision (Gearcoleco)</summary>
-		<summary lang="en_GB">Coleco - ColecoVision (Gearcoleco)</summary>
+		<summary lang="en_GB">Coleco - ColecoVision / ADAM (Gearcoleco)</summary>
 		<summary lang="es_ES">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="ga">Coleco - ColecoVision (Gearcoleco)</summary>
 		<summary lang="it_IT">Coleco - ColecoVision (Gearcoleco)</summary>

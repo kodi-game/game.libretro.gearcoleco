@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "Addon Summary"
-msgid "Coleco - ColecoVision (Gearcoleco)"
+msgid "Coleco - ColecoVision / ADAM (Gearcoleco)"
 msgstr ""
 
 msgctxt "Addon Description"
@@ -180,4 +180,40 @@ msgstr ""
 
 msgctxt "#30041"
 msgid "Select which overscan (borders) will be used in TMS9918A emulation. 'Disabled' shows no overscan. 'Top+Bottom' enables vertical overscan only. 'Full (284 width)' and 'Full (320 width)' enable full overscan with different horizontal widths. F18A output uses its active logical raster without TMS overscan."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Cartridge Hardware (restart)"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Select hardware for cartridge ROMs only. Disks, data packs, playlists and no-content startup always use ADAM."
+msgstr ""
+
+msgctxt "#30044"
+msgid "ADAM Disk Control Drive"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Choose which drive the frontend Disk Control menu operates. Other drives remain mounted. Loaded media selects the primary content drive."
+msgstr ""
+
+msgctxt "#30046"
+msgid "ADAM Computer Reset"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Select Reset to boot the computer from mounted media, or SmartWriter when none is bootable. To request it again, select Idle then Reset. Normal frontend Reset retains the current boot mode."
+msgstr ""
+
+msgctxt "#30048"
+msgid "ADAM Writable Media (restart)"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Disabled mounts ADAM media write protected. Save-directory working copy stores writes in complete images under the frontend save directory and never overwrites source content."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Save-directory working copy"
 msgstr ""

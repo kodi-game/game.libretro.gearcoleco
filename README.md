@@ -1,4 +1,4 @@
-# Coleco - ColecoVision (Gearcoleco)
+# Coleco - ColecoVision / ADAM (Gearcoleco)
 
 ### Description
 
@@ -10,7 +10,7 @@ GPLv3
 
 ### Icon
 
-![Coleco - ColecoVision (Gearcoleco) icon](game.libretro.gearcoleco/resources/icon.png)
+![Coleco - ColecoVision / ADAM (Gearcoleco) icon](game.libretro.gearcoleco/resources/icon.png)
 
 ### Fanart
 
