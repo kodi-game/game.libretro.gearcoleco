@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.gearcoleco"
 		name="Coleco - ColecoVision / ADAM (Gearcoleco)"
-		version="1.6.11.42"
+		version="1.7.6.43"
 		provider-name="Nacho Sanchez">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
